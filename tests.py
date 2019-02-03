@@ -4,7 +4,10 @@ from WebScraper import site_map
 
 
 class WebScraperTestCase(unittest.TestCase):
-
+    """
+    1) NAVIGATE TO example/ DIRECTORY!!!
+    2) RUN "python -m http.server" COMMAND BEFORE RUNNING TESTS!!!
+    """
     def setUp(self):
         self.test_url = 'http://0.0.0.0:8000/'
         self.correct_result = {
