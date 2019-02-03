@@ -3,7 +3,7 @@ import unittest
 from WebScraper import site_map
 
 
-class TestCase(unittest.TestCase):
+class WebScraperTestCase(unittest.TestCase):
 
     def setUp(self):
         self.test_url = 'http://0.0.0.0:8000/'
