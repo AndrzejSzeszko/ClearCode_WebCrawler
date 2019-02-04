@@ -1,4 +1,4 @@
-# ClearCode internship task 2019: Web Scraper
+# ClearCode internship task 2019: Web Crawler
 ## Description:
 This project contains function site_map(url) that takes url as an input and returns site map in form of dictionary. This dictionary keys are all links that belongs to initial url domain (those links lead to subsites of initial url). Values are dictionaries containing title of the website and set of links that this website includes. Eg.:
 ```
