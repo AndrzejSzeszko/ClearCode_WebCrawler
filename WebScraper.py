@@ -16,7 +16,7 @@ def site_map(url):
         links = set(link if link.startswith(domain) else f'{domain}{link}' for link in links)
         result[current_url] = {'title': title, 'links': links}
         for link in links:
-            if result.get(link):
+            if result.get(link):  # if key of given link already exist in result dict
                 pass
             else:
                 create_map(current_url=link)
