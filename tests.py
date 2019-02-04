@@ -7,6 +7,7 @@ class WebScraperTestCase(unittest.TestCase):
     """
     1) NAVIGATE TO example/ DIRECTORY!!!
     2) RUN "python -m http.server" COMMAND BEFORE RUNNING TESTS!!!
+    3) RUN "python -m unitest tests.py"
     """
     def setUp(self):
         self.test_url = 'http://0.0.0.0:8000/'
